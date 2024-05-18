@@ -1,0 +1,95 @@
+{
+  "en": {
+    "title": "Space Expansion Project",
+    "news": "News",
+    "github": "Github",
+    "lang": "Lang",
+    "lang2": "UA",
+    "lang3": "RU",
+    "description": "API-driven, partially open-source game. Manage a space company, conduct research, build rockets, complete missions, and participate in an interplanetary market economy.",
+    "getting_started_doc": "Getting-Started Docs",
+    
+    "features": "Features",
+
+    "feature_api": "API-Driven Gameplay",
+    "feature_api_description": "Interact with the game exclusively through an API, allowing for automation, integration with other services, and the creation of custom interfaces to manage your space company.",
+    
+    "feature_research": "Research and Technologies",
+    "feature_research_description": "Conduct research to unlock new technologies and systems essential for designing and building rockets, and for completing various missions.",
+    
+    "feature_missions": "Contracts and Missions",
+    "feature_missions_description": "Accept and complete missions such as launching payloads into orbit or mining resources from asteroids to earn funds and develop your space company.",
+    
+    "feature_economic": "Economic System",
+    "feature_economic_description": "Participate in a market economy where you can trade mined resources on an interplanetary market, manage your company's finances, and make strategic decisions to increase profits and company growth.",
+    
+    "feature_resource_management": "Resource Allocation",
+    "feature_resource_management_description": "Manage various materials and finances strategically to optimize your space missions and ensure the growth of your company.",
+    
+    "feature_gameplay": "Collaborative and Competitive Gameplay",
+    "feature_gameplay_description": "Work together with other players on large-scale projects or compete for contracts and market share, adding layers of social interaction and strategic depth."
+  
+  },
+
+
+  "ru": {
+    "title": "Space Expansion Project",
+    "news": "Новости",
+    "github": "Github",
+    "lang": "Язык",
+    "description": "Игра с частично открытым исходным кодом, управляемая через API. Руководите космической компанией, проводите исследования, стройте ракеты, выполняйте миссии и участвуйте в межпланетной рыночной экономике",
+    "getting_started_doc": "Начальная документация",
+
+    "features": "Особенности",
+    
+    "feature_api": "Геймплей через API",
+    "feature_api_description": "Взаимодействуйте с игрой исключительно через API, что позволяет автоматизировать процессы, интегрировать игру с другими сервисами и создавать собственные интерфейсы для управления вашей космической компанией.",
+    
+    "feature_research": "Исследования и Технологии",
+    "feature_research_description": "Проводите исследования для открытия новых технологий и систем, необходимых для проектирования и строительства ракет, а также для выполнения различных миссий.",
+    
+    "feature_missions": "Контракты и Миссии",
+    "feature_missions_description": "Принимайте и выполняйте миссии, такие как вывод полезной нагрузки на орбиту или добыча ресурсов с астероидов, чтобы зарабатывать средства и развивать свою космическую компанию.",
+    
+    "feature_economic": "Экономическая Система",
+    "feature_economic_description": "Участвуйте в рыночной экономике, продавайте добытые ресурсы на межпланетном рынке, управляйте финансами своей компании и принимайте стратегические решения для увеличения прибыли и роста компании.",
+    
+    "feature_resource_management": "Распределение Ресурсов",
+    "feature_resource_management_description": "Стратегически управляйте различными материалами и финансами, чтобы оптимизировать свои космические миссии и обеспечить рост вашей компании.",
+    
+    "feature_gameplay": "Сотрудничество и Конкуренция",
+    "feature_gameplay_description": "Сотрудничайте с другими игроками на крупных проектах или конкурируйте за контракты и долю на рынке, добавляя слой социального взаимодействия и стратегической глубины."
+
+
+  },
+  "uk": {
+    "title": "Space Expansion Project",
+    "news": "Новини",
+    "github": "Github",
+    "lang": "Мова",
+    "description": "Гра з частково відкритим вихідним кодом, керована через API. Керуйте космічною компанією, проводьте дослідження, будуйте ракети, виконуйте місії та берiть участь у міжпланетнiй ринковій економіці",
+    "getting_started_doc": "Початкова документацiя",
+    
+    "features": "Особливостi",
+
+    "feature_api": "Геймплей через API",
+    "feature_api_description": "Взаємодійте з грою виключно через API, що дозволяє автоматизувати процеси, інтегрувати гру з іншими сервісами та створювати власні інтерфейси для керування вашою космічною компанією.",
+    
+    "feature_research": "Дослідження та Технології",
+    "feature_research_description": "Проводьте дослідження, щоб відкрити нові технології та системи, необхідні для проектування та будівництва ракет, а також для виконання різних місій.",
+    
+    "feature_missions": "Контракти та Місії",
+    "feature_missions_description": "Приймайте та виконуйте місії, такі як виведення корисного навантаження на орбіту або видобуток ресурсів з астероїдів, щоб заробляти кошти та розвивати свою космічну компанію.",
+    
+    "feature_economic": "Економічна Система",
+    "feature_economic_description": "Беріть участь у ринковій економіці, продавайте видобуті ресурси на міжпланетному ринку, керуйте фінансами своєї компанії та приймайте стратегічні рішення для збільшення прибутків і зростання компанії.",
+    
+    "feature_resource_management": "Розподіл Ресурсів",
+    "feature_resource_management_description": "Стратегічно керуйте різними матеріалами та фінансами, щоб оптимізувати свої космічні місії та забезпечити зростання вашої компанії.",
+    
+    "feature_gameplay": "Співпраця та Конкуренція",
+    "feature_gameplay_description": "Співпрацюйте з іншими гравцями на великих проєктах або змагайтеся за контракти та частку на ринку, додаючи шар соціальної взаємодії та стратегічної глибини."
+
+
+  }
+}
