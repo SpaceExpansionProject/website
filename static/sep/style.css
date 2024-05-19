@@ -393,3 +393,78 @@ body, html {
 .footer-right a:hover {
     color: #fff;
 }
+
+
+
+
+/* Стили для кнопки гамбургера */
+.hamburger-menu {
+    display: none; /* скрыть кнопку по умолчанию */
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    z-index: 1001; /* выше, чем у navbar */
+    margin: 0 auto;
+}
+
+/* Стили для мобильного меню */
+.mobile-menu {
+    display: none; /* скрыть меню по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* черный фон с прозрачностью */
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.mobile-menu.active {
+    display: flex;
+    transform: translateY(0);
+}
+
+/* Стили для кнопки гамбургера на мобильных устройствах */
+@media (max-width: 768px) {
+    .navbar-center {
+        justify-content: space-between; /* чтобы заголовок и гамбургер были по краям */
+    }
+
+    .navbar-links {
+        display: none; /* скрыть ссылки меню на мобильных устройствах */
+    }
+
+    .hamburger-menu {
+        display: block; /* показать кнопку гамбургера на мобильных устройствах */
+    }
+
+    .title{
+        font-size: 1.75em;
+        margin: 0 auto;
+    }
+
+    .info-block {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .info-content {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
