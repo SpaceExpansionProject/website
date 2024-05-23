@@ -43,6 +43,10 @@ function switchLanguage(languageCode) {
                 if (texts[key]) {
                     element.textContent = texts[key];
                 }
+                const url_key = element.getAttribute(`url-i18n`);
+                if (texts[key]) {
+                    element.href.value = texts[key];
+                }
             });
         })
         .catch(error => console.error('Error loading localization file:', error));
@@ -52,10 +56,10 @@ function switchLanguage(languageCode) {
 // Обработчики событий для кнопок переключения языка
 document.getElementById('lang-en').addEventListener('click', () => switchLanguage('en'));
 document.getElementById('lang-ru').addEventListener('click', () => switchLanguage('ru'));
-document.getElementById('lang-uk').addEventListener('click', () => switchLanguage('uk'));
+document.getElementById('lang-ua').addEventListener('click', () => switchLanguage('ua'));
 document.getElementById('lang-mob-en').addEventListener('click', () => switchLanguage('en'));
 document.getElementById('lang-mob-ru').addEventListener('click', () => switchLanguage('ru'));
-document.getElementById('lang-mob-uk').addEventListener('click', () => switchLanguage('uk'));
+document.getElementById('lang-mob-ua').addEventListener('click', () => switchLanguage('ua'));
 
 // По умолчанию загружаем английский язык
 switchLanguage('en');
